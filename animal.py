@@ -6,7 +6,11 @@ class Animal:
     kingdom = "Animalia"
     # TODO create a class-level attribute that is a list of all the Animal objects
 
-    # TODO create the initializer for Animal with name and species as attributs
+    def __init__(self, name, species):
+        
+        self.name = name
+        self.species = species
+
 
     # TODO: Add a method to make a generic sound 
     # Call the method `speak` and make it output a specific message like 
