@@ -1,12 +1,16 @@
 from animal import Animal
+from dog import Dog
 
 if __name__ == "__main__":
 
+    # kitty is an instance of the Animal class
     kitty = Animal("kitty", "feline")
+    fido = Dog("Fido", "Canine", "Bulldog")
 
     print (kitty)
-
-    # TODO: Create an instance of the Animal class
+    print (fido)
+    kitty.speak()
+    fido.speak()
     # TODO: Print the Animal instance
     # TODO: Call the method to make a generic animal sound
 
